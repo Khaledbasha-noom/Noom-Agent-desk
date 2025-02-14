@@ -1,6 +1,6 @@
 // Fetches the full content from Google Apps Script
 async function fetchGoogleDoc() {
-    const apiUrl = "https://script.google.com/macros/s/AKfycbwDNjPu28YAgrZwgFxmHcUyqroh_e-L59KbunhKQd35e6dKaA6l96d84qNffLPTEqC6/exec"; 
+    const apiUrl = "https://script.google.com/macros/s/AKfycbzRybDFiUVB1_6s0dxdQAyrv1lqsu0GGaINrNSTvGj1QJcrABrupWCoKPBSNYa9BfjZ/exec"; 
 
     try {
         let response = await fetch(apiUrl);
